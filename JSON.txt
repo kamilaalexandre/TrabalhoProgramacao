@@ -1,0 +1,101 @@
+#Chef_De_Cozinha
+{ 
+   "id":1,
+   "nome":"Joana",
+   "expediente":"Noturno",
+   "salario":"R$1200,00"
+}
+
+#Vendedor
+{ 
+   "id":1,
+   "nome":"Karina",
+   "expediente":"Integral",
+   "salario":"R$1700,00"
+}
+
+#Endereco
+{ 
+   "id":1,
+   "bairro":"Itoupavazinha",
+   "rua":"Rua Sao Miguel",
+   "numero":90
+}
+
+#Estabelecimento
+{ 
+   "id":1,
+   "nome":"Pe de Fava",
+   "vendedor":{ 
+      "id":1,
+      "nome":"Karina",
+      "expediente":"Integral",
+      "salario":"R$1700,00"
+   },
+   "chef":{ 
+      "id":1,
+      "nome":"Joana",
+      "expediente":"Noturno",
+      "salario":"R$1200,00"
+   },
+   "endereco":{ 
+      "id":1,
+      "bairro":"Itoupavazinha",
+      "rua":"Rua Sao Miguel",
+      "numero":90
+   }
+}
+
+
+#Fornecedor
+{ 
+   "id":1,
+   "nome":"Casas Bahia",
+   "vendedor":{ 
+      "id":1,
+      "nome":"Karina",
+      "expediente":"Integral",
+      "salario":"R$1700,00"
+   }
+}
+
+#Ingrediente
+{ 
+   "id":1,
+   "nome":"Batata",
+   "quantidade":"50 unidades"
+}
+
+#Receita
+{ 
+   "id":1,
+   "nome":"Batatas Fritas"
+}
+
+#Doce
+{ 
+   "id":1,
+   "nome":"Trufas",
+   "sabor":"Brigadeiro",
+   "peso":"50 gramas",
+   "valor":"R$2,00",
+   "quantidade":100
+}
+
+#Pedido
+{ 
+   "id":1,
+   "valor_total":"R$200,00",
+   "vendedor":{ 
+      "id":1,
+      "nome":"Karina",
+      "expediente":"Integral",
+      "salario":"R$1700,00"
+   }
+}
+
+#Cliente
+{ 
+   "id":1,
+   "nome":"Lais"
+}
